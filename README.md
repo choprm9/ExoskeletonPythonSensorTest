@@ -12,6 +12,7 @@ Steps to connect to pi with SSH and VNC Viewer:
 2) Ssh into the pi via command prompt (in my case: ssh ********)
 - Pi will ask for password, in this case ********
 - If it does not ask for a password… Keep running the ssh command? Idk whats the actual fix but that worked for me lol
+- 
 To connect to VNC Viewer, must get ip address of the pi (my pi had ip address **********, not sure if this changes)
 3) Run hostname -I, should display pi’s ip address
 - If it does not, follow these steps (apparently this is an issue with connecting the ethernet cable to the laptop, thank you chatgpt <3 )
